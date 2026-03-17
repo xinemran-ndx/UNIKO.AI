@@ -376,7 +376,7 @@ export default function App() {
       parts.push({ text: promptText });
 
       const response = await ai.models.generateContent({
-        model: "gemini-1.5-flash-latest",
+        model: "gemini-1.5-flash",
         contents: { parts },
         config: {
           systemInstruction: `You are UNIKON.AI, an advanced Ultra Realistic Image Prompt Generator with a built-in Consistency Lock System.
